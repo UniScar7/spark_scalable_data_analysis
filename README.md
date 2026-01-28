@@ -49,23 +49,34 @@ The goal of the project is to showcase **scalability concepts**, not just data a
 
 ## How to Run
 
-1. Install Java 17 and PySpark
+1. Install **Java 17** and **PySpark**
 2. Place the Parquet dataset inside the `data/` folder
-3. Run:
+3. Run the analysis script:
 
 ```bash
 python taxi_analysis.py
+---
 
-Save & close.
+Notes
+The dataset is excluded from the repository due to size constraints
+
+This project focuses on scalable data processing concepts, not visualization
+
+
+Make sure:
+- The triple backticks before and after `python taxi_analysis.py` are present
+
+Save the file.
 
 ---
 
-## STEP 3 — Commit README upgrade
+## Commit the cleanup
 
 ```bat
 git add README.md
-git commit -m "Improve README with scalability and Spark concepts"
+git commit -m "Clean up README formatting and run instructions"
 git push
+
 
 
 
